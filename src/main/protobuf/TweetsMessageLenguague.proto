@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package eci.edu.co.protos;
+
+message TweetMessageLenguague {
+  string Usuarios = 1;
+  string idioma = 2;
+  string cantidad = 3;
+}
